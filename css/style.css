@@ -906,7 +906,7 @@ button {
   clear: both;
 }
 .markdown-body {
-  font-family: 'Satoshi-Variable', sans-serif, 'Noto Sans SC', sans-serif, sans-serif;
+  font-family: 'fasan', 'Noto Sans SC', sans-serif;
   font-size: 16px;
 }
 .markdown-body blockquote {
@@ -1016,7 +1016,7 @@ button {
 .markdown-body .h4,
 .markdown-body .h5,
 .markdown-body .h6 {
-  font-family: 'Satoshi-Variable', sans-serif, 'Noto Sans SC', sans-serif, sans-serif;
+  font-family: 'fasan', 'Noto Sans SC', sans-serif;
   color: var(--second-text-color);
   line-height: 1.5;
   margin-bottom: 1rem !important;
@@ -3018,7 +3018,7 @@ html.is-animating .transition-fade {
   width: 100%;
   font-size: 0.92rem;
   box-sizing: border-box;
-  font-family: 'Satoshi-Variable', sans-serif, 'Noto Sans SC', sans-serif, 'Noto Sans', 'Noto Sans SC', sans-serif;
+  font-family: 'fasan', 'Noto Sans SC', 'Noto Sans', 'Noto Sans SC', sans-serif;
 }
 .post-toc-wrap .post-toc .toc-title {
   font-size: 0.8rem;
@@ -4609,6 +4609,27 @@ html.is-animating .scroll-progress-bar {
 .navbar-container .navbar-content .left {
   display: flex;
   align-items: center;
+}
+.navbar-container .navbar-content .left .logo-image {
+  width: 34px;
+  height: 34px;
+  margin-right: 12px;
+}
+@media (max-width: 768px) {
+  .navbar-container .navbar-content .left .logo-image {
+    width: 30.6px;
+    height: 30.6px;
+  }
+}
+@media (max-width: 640px) {
+  .navbar-container .navbar-content .left .logo-image {
+    width: 27.200000000000003px;
+    height: 27.200000000000003px;
+  }
+}
+.navbar-container .navbar-content .left .logo-image img {
+  border-radius: 6px;
+  width: 100%;
 }
 .navbar-container .navbar-content .left .logo-title {
   font-size: 1.7rem;
@@ -6372,7 +6393,7 @@ html.is-animating .scroll-progress-bar {
   min-height: 90vh;
 }
 .home-banner-container .content .description {
-  font-size: 2.8rem;
+  font-size: 3.1rem;
   line-height: 1.2;
   color: var(--home-banner-text-color);
 }
@@ -6391,7 +6412,7 @@ html.is-animating .scroll-progress-bar {
 }
 @media (max-width: 768px) {
   .home-banner-container .content .description {
-    font-size: 2.52rem;
+    font-size: 2.79rem;
   }
 }
 .image-viewer-container {
@@ -6905,7 +6926,7 @@ html.is-animating .scroll-progress-bar {
   }
 }
 .article-copyright-info-container {
-  font-family: 'Satoshi-Variable', sans-serif, 'Noto Sans SC', sans-serif;
+  font-family: 'fasan', 'Noto Sans SC', sans-serif;
   position: relative;
   width: 100%;
   box-sizing: border-box;
@@ -7249,7 +7270,7 @@ html.is-animating .scroll-progress-bar {
   font-size: 1.4rem;
   line-height: 1.5;
   color: var(--second-text-color);
-  font-family: 'Satoshi-Variable', sans-serif, 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif;
+  font-family: 'fasan', 'Noto Sans SC', 'Noto Sans SC', sans-serif;
   margin: 0;
 }
 @media (max-width: 768px) {
